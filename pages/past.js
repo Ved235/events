@@ -40,5 +40,14 @@ export const getStaticProps = async () => {
       new Date(new Date().toISOString().substring(0, 7))
   )
   const months = groupBy(events, e => e.start.substring(0, 7))
+
+  // Ensure that desc is not undefined for each event
+  for (let month in months) {
+    months[month] = months[month].map(event => ({
+      ...event,
+      desc: event.desc || null,
+    }));
+  }
+
   return { props: { months }, revalidate: 5 }
 }
