@@ -28,11 +28,11 @@ const Page = ({ event }) => (
   <>
     <Meta
       as={Head}
-      name="Hack Club Events"
+      name="Quest Andromeda Events"
       title={event.title}
       description={`${event.ama ? 'An AMA hosted by' : 'An event by'} ${
         event.leader
-      } on ${fullDate(event)} at Hack Club.`}
+      } on ${fullDate(event)} at Quest Andromeda.`}
       image={`https://workshop-cards.hackclub.com/${encodeURIComponent(
         event.title
       )}.png?brand=Events&fontSize=225px&caption=${encodeURIComponent(

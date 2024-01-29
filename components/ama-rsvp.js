@@ -34,7 +34,7 @@ const AMARsvp = ({ id, amaId }) => {
             color: 'white'
           }}
         >
-          RSVP via the Hack Club Slack
+          RSVP via the Quest Andromeda Slack
         </Button>
       </Link>
     </Card>

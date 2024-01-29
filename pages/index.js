@@ -16,11 +16,11 @@ export default ({ months }) => (
       }}
     >
       <Heading as="h1" variant="title" color="primary" mb={2}>
-        Hack Club Events
+        Quest Andromeda Events
       </Heading>
       <Text as="p" variant="subtitle">
         AMAs, show & tells, & weekly fun in the{' '}
-        <A href="https://hackclub.com/">Hack Club</A> community.
+        <A href="https://questandromeda.org/">Quest Andromeda</A> community.
       </Text>
       <Text as="p" variant="subtitle" mt={2}>
         All dates/times in your local time.

@@ -33,7 +33,7 @@ const Event = ({ id, slug, title, desc, leader, avatar, start, end, cal }) => (
       >
         <Text>
           <strong>{tt('{MM} {Do}').render(new Date(start))}</strong>{' '}
-          {tt('{h}:{mm}').render(new Date(start))}–
+          {tt('{h}:{mm} {a}').render(new Date(start))}–
           {tt('{h}:{mm} {a}').render(new Date(end))}
         </Text>
       </Box>

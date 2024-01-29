@@ -35,16 +35,16 @@ const BackButton = ({ to = '/', text = 'All Events' }) => (
 
 const Flag = () => (
   <A
-    href="https://hackclub.com/"
+    href="https://questandromeda.org/"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Hack Club homepage"
+    aria-label="Quest Andromeda homepage"
     sx={{ mt: -3, lineHeight: 0 }}
   >
     <Image
-      src="https://assets.hackclub.com/flag-orpheus-top.svg"
-      alt="Hack Club flag"
-      sx={{ width: [96, 128] }}
+      src="https://media.discordapp.net/attachments/1078317804148768849/1201611822940311643/Logo.png?ex=65ca7337&is=65b7fe37&hm=ff05c06af84fb51a3d61dd64d51e9fb8a7cdc36be631ed614e61dcd004b212ad&=&format=webp&quality=lossless&width=658&height=671"
+      alt="Quest Andromeda flag"
+      sx={{ width: [36, 48] , paddingTop: 10}}
     />
   </A>
 )
@@ -90,7 +90,7 @@ export default () => {
         {!home ? <BackButton /> : <Flag />}
         <NavButton
           as="a"
-          href="https://github.com/hackclub/events"
+          href=""
           aria-label="View source code on GitHub"
           sx={{ ml: 'auto' }}
         >
