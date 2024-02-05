@@ -94,7 +94,7 @@ export default () => {
           aria-label="View source code on GitHub"
           sx={{ ml: 'auto' }}
         >
-          <GitHub size={24} />
+      
         </NavButton>
         <ColorSwitcher />
       </Container>
