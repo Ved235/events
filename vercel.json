@@ -1,6 +1,6 @@
 {
   "public": true,
-  "installCommand": "nvm install 14.18.1 && nvm use 14.18.1 && yarn install",
+
   "rewrites": [
     {
       "source": "/arts-gala",
