@@ -244,14 +244,6 @@ export default props => {
   }
 }
 
-export const getStaticPaths = async () => {
-  const { getEvents } = require('../lib/data')
-  const { map } = require('lodash')
-  const events = await getEvents()
-  const slugs = map(events, 'slug')
-  const paths = slugs.map(slug => ({ params: { slug } }))
-  return { paths, fallback: true }
-}
 
 export const getStaticProps = async ({ params }) => {
   const md = require('@hackclub/markdown')
