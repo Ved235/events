@@ -19,7 +19,7 @@ export default ({ months }) => (
         Quest Andromeda Events
       </Heading>
       <Text as="p" variant="subtitle">
-        AMAs, show & tells, & weekly fun in the{' '}
+        Competitions in the{' '}
         <A href="https://questandromeda.org/">Quest Andromeda</A> community.
       </Text>
       <Text as="p" variant="subtitle" mt={2}>
@@ -49,12 +49,7 @@ export default ({ months }) => (
             View past events
           </Button>
         </Link>
-        <Link href="/data" passHref>
-          <Button as="a">
-            <Activity />
-            Events API
-          </Button>
-        </Link>
+
       </Box>
     </Container>
   </>

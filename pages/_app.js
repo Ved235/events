@@ -9,13 +9,7 @@ import Nav from '../components/nav'
 
 const App = ({ Component, pageProps }) => (
   <ThemeProvider theme={theme}>
-    <Meta
-      as={Head}
-      name="Quest Andromeda"
-      title="Events"
-      description="See the upcoming events from the Quest Andromeda high school coding community: AMAs, CTFs, fireside chats, live coding sessions, & lots more."
-      image="https://cloud-35gbvrq0s.vercel.app/2020-07-24_jqvwtt2xkqye541v21gqagg55zdevpj4.jpeg"
-    />
+    
     <Nav />
     <Component {...pageProps} />
   </ThemeProvider>
