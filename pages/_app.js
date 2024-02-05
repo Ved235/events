@@ -6,7 +6,7 @@ import '@hackclub/theme/fonts/reg-bold.css'
 import theme from '@hackclub/theme'
 import { ThemeProvider } from 'theme-ui'
 import Nav from '../components/nav'
-
+import './global.css'
 const App = ({ Component, pageProps }) => (
   <ThemeProvider theme={theme}>
     
