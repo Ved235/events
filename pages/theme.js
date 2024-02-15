@@ -463,13 +463,13 @@ theme.util = {
   gx: null,
   gxText: null
 }
-theme.util.cx = (c: string): string => theme.colors[c] || c
-theme.util.gx = (from: string, to: string): string => `radial-gradient(
+theme.util.cx = (c) => theme.colors[c] || c ;
+theme.util.gx = () => `radial-gradient(
   ellipse farthest-corner at top left,
   ${theme.util.cx(from)},
   ${theme.util.cx(to)}
 )`
-theme.util.gxText = (from: string, to: string) => ({
+theme.util.gxText = () => ({
   color: theme.util.cx(to),
   [theme.util.supportsClipText]: {
     backgroundImage: theme.util.gx(from, to),
