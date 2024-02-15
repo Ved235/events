@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Meta from '@hackclub/meta'
 import '@hackclub/theme/fonts/reg-bold.css'
 
-import theme from './theme.js'
+import theme from '../components/theme.js'
 import { ThemeProvider } from 'theme-ui'
 import Nav from '../components/nav'
 import { css } from 'theme-ui'
