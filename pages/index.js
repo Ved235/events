@@ -15,8 +15,8 @@ export default ({ months }) => (
         mb: [3, 4]
       }}
     >
-      <Heading as="h1" variant="title" color="primary" mb={2}>
-        Quest Andromeda Events
+      <Heading as="h1" variant="title" color="primary" mb={2} paddingTop={3} >
+       OAAO
       </Heading>
       <Text as="p" variant="subtitle">
         Competitions in the{' '}

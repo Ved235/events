@@ -51,15 +51,7 @@ const Flag = () => (
 
 const ColorSwitcher = props => {
   const [mode, setMode] = useColorMode()
-  return (
-    <NavButton
-      {...props}
-      onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
-      title="Reverse color scheme"
-    >
-      <Moon size={24} />
-    </NavButton>
-  )
+
 }
 
 export default () => {
@@ -87,16 +79,9 @@ export default () => {
           }
         }}
       >
-        {!home ? <BackButton /> : <Flag />}
-        <NavButton
-          as="a"
-          href=""
-          aria-label="View source code on GitHub"
-          sx={{ ml: 'auto' }}
-        >
-      
-        </NavButton>
-        <ColorSwitcher />
+        {!home ? <BackButton /> : null }
+
+     
       </Container>
     </Box>
   )

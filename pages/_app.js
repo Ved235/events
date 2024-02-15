@@ -9,9 +9,9 @@ import Nav from '../components/nav'
 import './global.css'
 const App = ({ Component, pageProps }) => (
   <ThemeProvider theme={theme}>
-    
-    <Nav />
-    <Component {...pageProps} />
+
+  <Nav></Nav>
+   <Component {...pageProps} />
   </ThemeProvider>
 )
 
