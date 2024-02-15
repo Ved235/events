@@ -6,7 +6,7 @@ export default ({ months }) => (
     <Box
       as="header"
       sx={{
-        bg: 'sheet',
+        bg: '#202134',
         color: 'primary',
         textAlign: 'center',
         py: [3, 4],

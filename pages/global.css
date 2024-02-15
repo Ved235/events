@@ -8,3 +8,6 @@ html {
     scrollbar-width: none; /* For Firefox */
     -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
+body {
+    background-color: #202134;
+  }
